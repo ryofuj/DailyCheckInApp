@@ -17,6 +17,10 @@
 		F9B7296D28E8D74300C69F45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B7294328E8D74200C69F45 /* ContentView.swift */; };
 		F9B7296E28E8D74300C69F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B7294428E8D74300C69F45 /* Assets.xcassets */; };
 		F9B7296F28E8D74300C69F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B7294428E8D74300C69F45 /* Assets.xcassets */; };
+		F9B7297F28E8DB4200C69F45 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B7297E28E8DB4200C69F45 /* HomeView.swift */; };
+		F9B7298028E8DB4200C69F45 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B7297E28E8DB4200C69F45 /* HomeView.swift */; };
+		F9B7298228E8DC0100C69F45 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B7298128E8DC0100C69F45 /* CheckInView.swift */; };
+		F9B7298328E8DC0100C69F45 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B7298128E8DC0100C69F45 /* CheckInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		F9B7296228E8D74300C69F45 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B7296628E8D74300C69F45 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F9B7296828E8D74300C69F45 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		F9B7297E28E8DB4200C69F45 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F9B7298128E8DC0100C69F45 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 				F9B7294228E8D74200C69F45 /* DailyCheckInAppApp.swift */,
 				F9B7294328E8D74200C69F45 /* ContentView.swift */,
 				F9B7294428E8D74300C69F45 /* Assets.xcassets */,
+				F9B7297E28E8DB4200C69F45 /* HomeView.swift */,
+				F9B7298128E8DC0100C69F45 /* CheckInView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -299,6 +307,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B7298228E8DC0100C69F45 /* CheckInView.swift in Sources */,
+				F9B7297F28E8DB4200C69F45 /* HomeView.swift in Sources */,
 				F9B7296C28E8D74300C69F45 /* ContentView.swift in Sources */,
 				F9B7296A28E8D74300C69F45 /* DailyCheckInAppApp.swift in Sources */,
 			);
@@ -308,6 +318,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B7298328E8DC0100C69F45 /* CheckInView.swift in Sources */,
+				F9B7298028E8DB4200C69F45 /* HomeView.swift in Sources */,
 				F9B7296D28E8D74300C69F45 /* ContentView.swift in Sources */,
 				F9B7296B28E8D74300C69F45 /* DailyCheckInAppApp.swift in Sources */,
 			);
